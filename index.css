@@ -1,0 +1,32 @@
+.cabecera {
+  background-image: url(imagen.jpg);
+  height: 400px;
+  font-family: "Luckiest Guy", cursive;
+  color: azure;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cabecera-botones {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  width: 100%;
+  column-gap: 12px;
+}
+
+.cabecera-botones button {
+  border: none;
+  color: greenyellow;
+  background-color: transparent;
+}
+
+body {
+  margin: 0;
+}
+.pie-pagina {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
